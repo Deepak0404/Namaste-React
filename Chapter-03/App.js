@@ -16,6 +16,7 @@ const heading1 = React.createElement(
 /*JSX => HTML like syntax into JS file
         JSX Expression
         Every attribute in camlecase
+        JSX can only have one parent
 
     Adv:
     1. Readabiltiy

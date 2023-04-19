@@ -1,0 +1,74 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 100%;
+    line-height: 1.5;
+}
+a,
+a img {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Style*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover {
+    text-decoration: underline;
+    color: #ecc586;
+}
+header img{
+    width: 120px;
+}
+
+.restaurant-list {
+    display: flex;
+    padding: 0 80px;
+    flex-flow: wrap;
+}
+.restaurants-card{
+    width: 300px;
+    margin: 12px;
+    padding: 12px;
+    box-shadow: 0px 0px 15px #ccc;
+    border-radius: 12px;
+}
+.restaurants-card:hover{
+    cursor: pointer;
+}
