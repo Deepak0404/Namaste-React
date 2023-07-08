@@ -4,7 +4,8 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "author": "Deepak Saini",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "jslint": "^0.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
